@@ -1,0 +1,24 @@
+{
+  "name": "everything-movies",
+  "version": "1.0.0",
+  "description": "Example Alexa skill used in class",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r everythingmovies.zip index.js node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlcarmic/everything-movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlcarmic/everything-movies/issues"
+  },
+  "homepage": "https://github.com/jlcarmic/everything-movies#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.8.0",
+    "ask-sdk-model": "^1.28.0",
+    "axios": "^0.19.2"
+  }
+}
